@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023", "DOM"],  // Asegúrate de incluir "DOM"
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node"
+    // ... otras opciones
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"]  // Asegúrate de incluir los archivos .ts y .vue
+}
